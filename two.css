@@ -1,0 +1,16 @@
+#menu-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#menu-list li {
+    text-decoration: none; 
+    display: inline-block; 
+    margin-right: 10px;
+}
+ul{
+    display: inline-block;
+}
+li{
+    margin: 30px;
+}

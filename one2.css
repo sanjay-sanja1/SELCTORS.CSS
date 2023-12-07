@@ -1,0 +1,26 @@
+.active{
+    color: chartreuse;
+    text-decoration: underline;
+}
+a[target="_self"] {
+    background-color: #ff0000; 
+    color: #ffffff; 
+}
+p:last-child::after {
+    content: "..."; 
+    color: red; 
+}
+li::before {
+    content: '\2022'; 
+    color: #ff0000; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+p:nth-child(2) {
+    
+    font-size: 30px;
+}
+p:nth-child(2)::first-letter{
+    color: red;
+}
